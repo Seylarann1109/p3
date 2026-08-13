@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.menu-bar {
+  width: 100%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  width: 80%;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  position: relative;
+}
+.menu ul li a {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.menu ul li a:hover {
+  background: #fff;
+  color: #2f3640;
+  transition: 0.3s;
+}
+.menu ul li .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  background: #2f3640;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.menu ul li:hover .sub-menu {
+  display: block;
+}
+.container {
+  width: 80%;
+  background: #64656c;
+  margin: 10px auto;
+}
+.bar2 {
+  width: 100%;
+  background: #64656c;
+  height: 500px;
+}
+.left-menu {
+  width: 30%;
+  height: 100%;
+  background: #2268c9;
+}
+.slider {
+  width: 70%;
+  height: 100%;
+  background-color: darkcyan;
+}
+.left-menu ul li a {
+  display: flex;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-menu ul li a:hover {
+  background: #fff;
+  color: #2268c9;
+  transition: 0.3s;
+}
+.left-menu ul li ul {
+  flex-direction: column;
+  padding-left: 20px;
+  background: #182f50;
+}
